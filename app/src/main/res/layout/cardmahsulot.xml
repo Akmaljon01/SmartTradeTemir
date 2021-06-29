@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/mahrasm"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@color/design_default_color_primary"
+                />
+            <TextView
+                android:id="@+id/mahnomi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mahsulot nomi"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/mahnarxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mahsulot narxi"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Search"
+        android:id="@+id/menuSearch"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item android:title="Korzinka"
+        android:id="@+id/menuitemcard"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
+    <item android:title="LogOut"
+        android:id="@+id/menuitemlogout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
+</menu>
